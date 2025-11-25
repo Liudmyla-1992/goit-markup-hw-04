@@ -350,27 +350,13 @@ margin:8px 0;
     justify-content: center;
     background: #fff;
     border-radius: 0 0 4px 4px;
-    padding-block: 0px 32px;
-    padding-inline: 0px;
     width: calc(100%-72px/4);
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     gap: 32px;
     margin: 0 auto;
 }
 .specialist-name {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 8px;
-        width: 232px;
-        height: 56px;
-        padding: 32px 0 32px;
+    padding: 32px 0 32px;
 }
 .section-our-portfolio{
     background-color: #FFFFFF;
@@ -401,8 +387,6 @@ margin:8px 0;
         list-style-type: none;
         margin: 0 auto;
         padding: 0;
-        width: 1128px;
-        height: 1000px;
         background: #fff;
         width: calc(100%-48/3);
         }
