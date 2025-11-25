@@ -342,8 +342,8 @@ margin:8px 0;
 .social-chain .icon-chain {
     fill: #f4f4fd;
 }
-.icon-chain:hover,
-.icon-chain:focus{
+.social-icons .link:hover,
+.social-icons .link:focus{
     background-color: #404bbf;
 }
 .our-team-specialist {
@@ -488,15 +488,38 @@ margin:8px 0;
          align-items: baseline;
         margin-right: 120px;
         }
+
 .social-chain-one {
         display: flex;
         justify-content: center;
-        gap: 24px;
         flex-shrink: 0;
         align-self: flex-end;
-        gap: 16px;
     }
-.social-chain-one:hover,
-.social-chain-one:focus {
+.social-icons-one {
+    display: flex;
+    gap: 16px;
+}
+.social-icons-one .social-chain-one {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons-one .link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-one .icon-chain {
+    fill: #f4f4fd;
+ }
+
+.social-icons-one .link:hover,
+.social-icons-one .link:focus {
     background-color: #31d0aa;
 }
